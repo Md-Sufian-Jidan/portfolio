@@ -5,6 +5,24 @@ export const navItems = [
     { name: "Contact", link: "#contact" },
 ];
 
+export const experienceData = [
+    {
+        role: "Web Developer (Squarespace CMS)",
+        company: "SM Technology",
+        period: "June 2025 – Present",
+        description: `
+At SM Technology, I specialize in designing and developing professional websites using the Squarespace CMS platform for a wide range of clients. My role focuses on delivering visually appealing, responsive, and user-friendly digital solutions that align with client goals.`,
+        responsibilities: [
+            "Designing and customizing websites on Squarespace to meet diverse client requirements (business, healthcare, education, lifestyle, and more).",
+            "Collaborating with clients to translate their vision into seamless and engaging online experiences.",
+            "Implementing structured content workflows to ensure brand consistency across digital platforms.",
+            "Troubleshooting technical issues and optimizing site performance for speed and usability.",
+            "Staying updated with Squarespace features, design trends, and best practices to deliver modern, high-quality solutions.",
+        ],
+        logo: "https://i.ibb.co.com/kVchL9VF/sm-logo.png",
+    },
+];
+
 export const gridItems = [
     {
         id: 1,
@@ -71,36 +89,40 @@ export const gridItems = [
 
 export const projects = [
     {
-        id: 1,
-        title: "3D Solar System Planets to Explore",
-        des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-        img: "/p1.svg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-        link: "https://github.com/adrianhajdin?tab=repositories",
+        title: "LuxeMatches",
+        description: "Premium matchmaking platform with role-based auth, Stripe payments, dynamic filtering, and admin control.",
+        features: [
+            "Role-based Access & Authentication: Firebase Auth + JWT protection.",
+            "Stripe Payment Integration for secure contact requests.",
+            "Dynamic Filtering & Pagination: Filter biodata by age, gender, division."
+        ],
+        tech: ["React", "Node.js", "MongoDB", "Firebase", "Tailwind", "Stripe", "Firebase Auth", "Stripe", "React Router", "React Query", "Framer Motion", "SwiperJS", "JWT", "Axios"],
+        live: "https://luxe-matches-client.vercel.app/",
+        github: "https://github.com/Md-Sufian-Jidan/luxe-matches-client",
     },
     {
-        id: 2,
-        title: "Yoom - Video Conferencing App",
-        des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-        img: "/p2.svg",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-        link: "https://github.com/adrianhajdin/zoom-clone",
+        title: "WorkNest",
+        description: "Job management app with employee salary tracking, dashboards, and JWT-secured role-based access.",
+        features: [
+            "Role-based dashboards: Admin, HR, Employee.",
+            "Stripe integration for salary payments.",
+            "Monthly progress tracking and work submission forms."
+        ],
+        tech: ["React", "Express", "MongoDB", "Node.js", "Tailwind", "Stripe", "Firebase Auth", "Stripe", "React Router", "React Query", "Framer Motion", "SwiperJS", "JWT", "Axios"],
+        live: "https://work-nest-client.web.app/",
+        github: "https://github.com/Md-Sufian-Jidan/work-nest-client",
     },
     {
-        id: 3,
-        title: "AI Image SaaS - Canva Application",
-        des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-        img: "/p3.svg",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-        link: "https://github.com/adrianhajdin/ai_saas_app",
-    },
-    {
-        id: 4,
-        title: "Animated Apple Iphone 3D Website",
-        des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-        img: "/p4.svg",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-        link: "https://github.com/adrianhajdin/iphone",
+        title: "StudySync",
+        description: "Online assessment system with role-based feedback, leaderboards, PDF previews, and dark mode.",
+        features: [
+            "Admins can give marks & feedback. Users can submit assignments.",
+            "PDF preview & notes on submission.",
+            "Pagination, difficulty filters, dark/light mode, leaderboard."
+        ],
+        tech: ["React", "MongoDB", "Node.js", "Express", "JWT", "Firebase Authentication", "Tailwind CSS", "Axios", "SweetAlert2", "React Toastify", "Swiper.js", "React Awesome Reveal"],
+        live: "https://online-assessment-client.web.app/",
+        github: "https://github.com/Md-Sufian-Jidan/online-assessment-client",
     },
 ];
 
