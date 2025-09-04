@@ -1,7 +1,7 @@
 "use client";
 import { posts } from "@/data";
 import { motion } from "framer-motion";
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 
 export default function Blog() {
@@ -24,7 +24,8 @@ export default function Blog() {
                         >
                             {/* Blog Image */}
                             <div className="h-48 w-full overflow-hidden">
-                                <Image
+                                <img
+                                    height={400}
                                     src={post.image}
                                     alt={post.title}
                                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"

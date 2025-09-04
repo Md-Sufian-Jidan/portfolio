@@ -1,7 +1,7 @@
 "use client";
 import { experienceData } from "@/data";
 import { motion } from "framer-motion";
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function Experience() {
     return (
@@ -22,7 +22,7 @@ export default function Experience() {
                             {/* Timeline Dot */}
                             <div className="absolute -left-[18px] top-2 w-6 h-6 rounded-full bg-purple-500 shadow-lg shadow-purple-400/50 flex items-center justify-center">
                                 {exp.logo && (
-                                    <Image
+                                    <img
                                         src={exp.logo}
                                         alt={exp.company}
                                         className="w-6 h-6 rounded-full object-contain"

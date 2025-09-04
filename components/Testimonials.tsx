@@ -1,7 +1,7 @@
 "use client";
 import { testimonials } from "@/data";
 import { motion } from "framer-motion";
-import Image from "next/image";
+// import Image from "next/image";
 
 const container = {
     hidden: { opacity: 0 },
@@ -40,7 +40,7 @@ export default function Testimonials() {
                             className="bg-slate-800 p-6 rounded-xl shadow-lg hover:shadow-purple-500/30 transition-shadow duration-300"
                         >
                             <div className="flex items-center gap-4 mb-4">
-                                <Image
+                                <img
                                     src={t.avatar}
                                     alt={t.name}
                                     className="w-14 h-14 rounded-full object-cover border-2 border-purple-400"
