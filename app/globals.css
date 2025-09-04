@@ -1,6 +1,14 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+body {
+  cursor: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -52,10 +60,6 @@
     opacity: 1;
     transform: translate(-50%, -40%) scale(1);
   }
-}
-
-body {
-  cursor: none;
 }
 
 :root {

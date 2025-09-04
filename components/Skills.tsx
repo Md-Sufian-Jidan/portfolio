@@ -35,7 +35,7 @@ export default function Skills() {
                                         initial="hidden"
                                         whileInView="visible"
                                         viewport={{ once: true }}
-                                        variants={cardVariants}
+                                        // variants={cardVariants}
                                         className="relative cursor-pointer group bg-slate-800 rounded-xl p-4 flex items-center justify-center text-white font-medium shadow-lg hover:shadow-purple-500/50 transition-shadow duration-300"
                                     >
                                         {/* Glow Border */}

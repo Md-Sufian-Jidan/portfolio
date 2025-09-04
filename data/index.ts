@@ -23,6 +23,98 @@ At SM Technology, I specialize in designing and developing professional websites
     },
 ];
 
+export const projects = [
+    {
+        title: "LuxeMatches",
+        description: "Premium matchmaking platform with role-based auth, Stripe payments, dynamic filtering, and admin control.",
+        features: [
+            "Role-based Access & Authentication: Firebase Auth + JWT protection.",
+            "Stripe Payment Integration for secure contact requests.",
+            "Dynamic Filtering & Pagination: Filter biodata by age, gender, division."
+        ],
+        tech: ["React", "Node.js", "MongoDB", "Firebase", "Tailwind", "Stripe", "Firebase Auth", "Stripe", "React Router", "React Query", "Framer Motion", "SwiperJS", "JWT", "Axios"],
+        live: "https://luxe-matches-client.vercel.app/",
+        github: "https://github.com/Md-Sufian-Jidan/luxe-matches-client",
+    },
+    {
+        title: "WorkNest",
+        description: "Job management app with employee salary tracking, dashboards, and JWT-secured role-based access.",
+        features: [
+            "Role-based dashboards: Admin, HR, Employee.",
+            "Stripe integration for salary payments.",
+            "Monthly progress tracking and work submission forms."
+        ],
+        tech: ["React", "Express", "MongoDB", "Node.js", "Tailwind", "Stripe", "Firebase Auth", "Stripe", "React Router", "React Query", "Framer Motion", "SwiperJS", "JWT", "Axios"],
+        live: "https://work-nest-client.web.app/",
+        github: "https://github.com/Md-Sufian-Jidan/work-nest-client",
+    },
+    {
+        title: "StudySync",
+        description: "Online assessment system with role-based feedback, leaderboards, PDF previews, and dark mode.",
+        features: [
+            "Admins can give marks & feedback. Users can submit assignments.",
+            "PDF preview & notes on submission.",
+            "Pagination, difficulty filters, dark/light mode, leaderboard."
+        ],
+        tech: ["React", "MongoDB", "Node.js", "Express", "JWT", "Firebase Authentication", "Tailwind CSS", "Axios", "SweetAlert2", "React Toastify", "Swiper.js", "React Awesome Reveal"],
+        live: "https://online-assessment-client.web.app/",
+        github: "https://github.com/Md-Sufian-Jidan/online-assessment-client",
+    },
+];
+
+export const testimonials = [
+    {
+        name: "Sarah Johnson",
+        role: "Senior Developer, TechCorp",
+        quote:
+            "Working with you was an absolute pleasure. Your attention to detail, problem-solving ability, and creativity made the project a success.",
+        avatar: "/avatars/avatar1.png",
+    },
+    {
+        name: "Michael Lee",
+        role: "Team Lead, DevSolutions",
+        quote:
+            "You consistently deliver high-quality work under tight deadlines. Your positive attitude and willingness to help others make you a valuable team member.",
+        avatar: "/avatars/avatar2.png",
+    },
+    {
+        name: "Emily Carter",
+        role: "Project Manager, CodeWorks",
+        quote:
+            "Your ability to quickly adapt to new technologies and frameworks is impressive. I look forward to working with you on future projects.",
+        avatar: "/avatars/avatar3.png",
+    },
+];
+
+export const posts = [
+    {
+        title: "Why Performance Matters in Modern Web Apps",
+        excerpt:
+            "Explore how performance optimization impacts user experience, SEO, and business growth, with real-world case studies.",
+        date: "August 20, 2024",
+        image: "/blog/performance.jpg",
+        slug: "/blog/performance-matters",
+    },
+    {
+        title: "Scaling Applications with Microservices",
+        excerpt:
+            "Breaking down large monolithic apps into microservices can boost agility and scalability. Here's my journey applying it.",
+        date: "July 15, 2024",
+        image: "/blog/microservices.jpg",
+        slug: "/blog/scaling-with-microservices",
+    },
+    {
+        title: "Design Systems for Consistent UX",
+        excerpt:
+            "Design systems bring order to chaos. Learn how consistent design improves usability and speeds up development.",
+        date: "June 5, 2024",
+        image: "/blog/design-systems.jpg",
+        slug: "/blog/design-systems",
+    },
+];
+
+
+
 export const gridItems = [
     {
         id: 1,
@@ -84,78 +176,6 @@ export const gridItems = [
         titleClassName: "justify-center md:max-w-full max-w-60 text-center",
         img: "",
         spareImg: "",
-    },
-];
-
-export const projects = [
-    {
-        title: "LuxeMatches",
-        description: "Premium matchmaking platform with role-based auth, Stripe payments, dynamic filtering, and admin control.",
-        features: [
-            "Role-based Access & Authentication: Firebase Auth + JWT protection.",
-            "Stripe Payment Integration for secure contact requests.",
-            "Dynamic Filtering & Pagination: Filter biodata by age, gender, division."
-        ],
-        tech: ["React", "Node.js", "MongoDB", "Firebase", "Tailwind", "Stripe", "Firebase Auth", "Stripe", "React Router", "React Query", "Framer Motion", "SwiperJS", "JWT", "Axios"],
-        live: "https://luxe-matches-client.vercel.app/",
-        github: "https://github.com/Md-Sufian-Jidan/luxe-matches-client",
-    },
-    {
-        title: "WorkNest",
-        description: "Job management app with employee salary tracking, dashboards, and JWT-secured role-based access.",
-        features: [
-            "Role-based dashboards: Admin, HR, Employee.",
-            "Stripe integration for salary payments.",
-            "Monthly progress tracking and work submission forms."
-        ],
-        tech: ["React", "Express", "MongoDB", "Node.js", "Tailwind", "Stripe", "Firebase Auth", "Stripe", "React Router", "React Query", "Framer Motion", "SwiperJS", "JWT", "Axios"],
-        live: "https://work-nest-client.web.app/",
-        github: "https://github.com/Md-Sufian-Jidan/work-nest-client",
-    },
-    {
-        title: "StudySync",
-        description: "Online assessment system with role-based feedback, leaderboards, PDF previews, and dark mode.",
-        features: [
-            "Admins can give marks & feedback. Users can submit assignments.",
-            "PDF preview & notes on submission.",
-            "Pagination, difficulty filters, dark/light mode, leaderboard."
-        ],
-        tech: ["React", "MongoDB", "Node.js", "Express", "JWT", "Firebase Authentication", "Tailwind CSS", "Axios", "SweetAlert2", "React Toastify", "Swiper.js", "React Awesome Reveal"],
-        live: "https://online-assessment-client.web.app/",
-        github: "https://github.com/Md-Sufian-Jidan/online-assessment-client",
-    },
-];
-
-export const testimonials = [
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
-    },
-    {
-        quote:
-            "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
     },
 ];
 
